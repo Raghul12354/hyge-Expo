@@ -110,7 +110,7 @@ const Navbar = () => {
           }}
         >
           <Link href="" sx={linkStyles}>
-            <Typography sx={linkTypoStyles}>testing</Typography>
+            <Typography sx={linkTypoStyles}>home</Typography>
             <ArrowForwardIosIcon sx={linkIconStyles} />
           </Link>
           <Link href="" sx={linkStyles}>
