@@ -1,15 +1,14 @@
 "use client";
-
 import { createTheme } from "@mui/material/styles";
-import { green } from "@mui/material/colors";
 
 const theme = createTheme({
   palette: {
     primary: {
       main: "#FFCC00",
+      light: "#8F8F8F",
     },
     secondary: {
-      main: green[500],
+      main: "#034AB2",
     },
   },
 });
