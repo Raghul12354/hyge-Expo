@@ -26,10 +26,10 @@ const About = () => {
         justifyContent: { xs: "center", md: "space-between" },
         flexDirection: { xs: "column", md: "row" },
         px: { xs: "1.5em", md: "10em" },
+        py: { xs: "3em", md: "10em" },
         bgcolor: "black",
         color: "white",
         gap: { xs: "2.8em", md: "4em" },
-        py: { xs: "3em", md: "10em" },
       }}
     >
       {/* first section */}
