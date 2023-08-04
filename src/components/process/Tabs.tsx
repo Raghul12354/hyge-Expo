@@ -137,11 +137,13 @@ export default function BasicTabs() {
             "& .MuiTab-root": {
               color: "black !important",
             },
-            "& .MuiTabs-indicator": { bgcolor: "secondary.main" },
+            "& .MuiTabs-indicator": {
+              bgcolor: "secondary.main",
+            },
             "& .MuiTabs-flexContainer": {
               display: "flex",
               flexDirection: { xs: "column", md: "row" },
-            },
+            }, 
           }}
         >
           <Tab disableRipple label="Packing and loading" {...a11yProps(0)} />

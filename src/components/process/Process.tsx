@@ -6,6 +6,7 @@ import BasicTabs from "./Tabs";
 const Process = () => {
   return (
     <Box
+      id="process"
       sx={{
         px: { xs: "1.5em", md: "10em" },
         pt: { xs: "3em", md: "5em" },

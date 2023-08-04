@@ -56,7 +56,7 @@ const Hero = () => {
     display: { xs: "none", md: "block" },
   };
   return (
-    <Box>
+    <Box id="home">
       <Box
         sx={{
           position: "relative",

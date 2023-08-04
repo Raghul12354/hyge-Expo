@@ -21,6 +21,7 @@ const About = () => {
 
   return (
     <Box
+    id="about"
       sx={{
         display: "flex",
         justifyContent: { xs: "center", md: "space-between" },

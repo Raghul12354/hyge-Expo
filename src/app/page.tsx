@@ -5,6 +5,7 @@ import Locations from "@/components/locations/Locations";
 import Services from "@/components/services/Services";
 import Process from "@/components/process/Process";
 import Contact from "@/components/contact/Contact";
+import Footer from "@/components/footer/Footer";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Services />
       <Process />
       <Contact />
+      <Footer />
     </Box>
   );
 }

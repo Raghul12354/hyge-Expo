@@ -6,6 +6,7 @@ import BasicAccordion from "./Accordion";
 const Locations = () => {
   return (
     <Box
+      id="locations"
       sx={{
         px: { xs: "1.5em", md: "10em" },
         py: { xs: "3em", md: "5em" },

@@ -109,28 +109,28 @@ const Navbar = () => {
             zIndex: 1,
           }}
         >
-          <Link href="" sx={linkStyles}>
+          <Link href="#home" sx={linkStyles}>
             <Typography sx={linkTypoStyles}>home</Typography>
             <ArrowForwardIosIcon sx={linkIconStyles} />
           </Link>
-          <Link href="" sx={linkStyles}>
+          <Link href="#about" sx={linkStyles}>
             <Typography sx={linkTypoStyles}>about us</Typography>
             <ArrowForwardIosIcon sx={linkIconStyles} />
           </Link>
-          <Link href="" sx={linkStyles}>
+          <Link href="#services" sx={linkStyles}>
             <Typography sx={linkTypoStyles}>services</Typography>
             <ArrowForwardIosIcon sx={linkIconStyles} />
           </Link>
-          <Link href="" sx={linkStyles}>
+          <Link href="#process" sx={linkStyles}>
             <Typography sx={linkTypoStyles}>process</Typography>
             <ArrowForwardIosIcon sx={linkIconStyles} />
           </Link>
-          <Link href="" sx={linkStyles}>
+          <Link href="#locations" sx={linkStyles}>
             <Typography sx={linkTypoStyles}>locations</Typography>
             <ArrowForwardIosIcon sx={linkIconStyles} />
           </Link>
           <Link
-            href=""
+            href="#contact"
             sx={{ ...linkStyles, display: { xs: "flex", md: "none" } }}
           >
             <Typography sx={linkTypoStyles}>contact us</Typography>
@@ -144,11 +144,12 @@ const Navbar = () => {
             alignItems: "center",
             justifyContent: "space-between",
             width: "100%",
+            textDecoration: "none",
           }}
         >
           <Button
             disableRipple
-            href=""
+            href="#contact"
             sx={{
               ...linkStyles,
               mx: { xs: "1.7em", md: 0 },

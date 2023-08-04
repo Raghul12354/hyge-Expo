@@ -33,7 +33,10 @@ const Contact = () => {
     },
   };
   return (
-    <Box sx={{ px: { xs: "1.5em", md: "10em" }, py: { xs: "3em", md: "2em" } }}>
+    <Box
+      id="contact"
+      sx={{ px: { xs: "1.5em", md: "10em" }, py: { xs: "0", md: "2em" } }}
+    >
       <Title
         color="black"
         title="Contact us"
@@ -76,13 +79,19 @@ const Contact = () => {
             <Box>
               <Typography sx={titleStyles}>Our Location</Typography>
               <Typography
-                sx={{ ...descStyles, width: { xs: "100%", md: "10em" } }}
+                sx={{
+                  ...descStyles,
+                  width: { xs: "7em", md: "10em" },
+                  mx: "auto",
+                }}
               >
                 Dot Cowork - Tidel Park, Chennai
               </Typography>
             </Box>
             <Box>
-              <Typography sx={titleStyles}>Write to us</Typography>
+              <Typography sx={{ ...titleStyles, mt: "1em" }}>
+                Write to us
+              </Typography>
               <Typography sx={descStyles}>support@hygeinfotech.com</Typography>
             </Box>
           </Box>

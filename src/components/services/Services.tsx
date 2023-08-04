@@ -32,6 +32,7 @@ const Services = () => {
   ];
   return (
     <Box
+      id="services"
       sx={{
         px: { xs: "1.5em", md: "10em" },
         py: { xs: "3em", md: "5em" },
