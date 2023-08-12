@@ -9,7 +9,7 @@ const Process = () => {
       id="process"
       sx={{
         px: { xs: "1.5em", md: "10em" },
-        pt: { xs: "3em", md: "5em" },
+        pt: { xs: "3em", md: "2em" },
         pb: { xs: "3em", md: "0" },
       }}
     >
